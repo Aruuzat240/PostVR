@@ -1,0 +1,51 @@
+header a {
+  color: white;
+  text-decoration: none;
+  position:relative;
+  left: 215px;
+  top: 2px;
+  padding-left: 10px;
+  width: 620px;
+height: 27px;
+
+}
+
+.header {
+  width: 1130px;
+  height: 51px;
+  background-color: #ffffff25;
+  border-radius: 200px;
+  gap: 15px;
+  opacity: 1;
+  margin-top: 45px;
+}
+.container{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+
+}
+header{
+    padding-left: 65px;
+}
+header h5{
+    width: 55px;
+height: 19px;
+color: white;
+position: absolute;
+left: 90px;
+top: 63px;
+}
+header button{
+    width: 132px;
+height: 23px;
+background-color: #3C82F6;
+border: none;
+color: white;
+border-radius: 100px;
+/* margin-left: 180px; */
+position: relative;
+left: 60px;
+top: 2px;
+}

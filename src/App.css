@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+body{
+    font-family:Unbounded ;
+    background-color: #0B0F1A;
+}
+*{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+   width: 85%;
+  margin: 0 auto;
+}

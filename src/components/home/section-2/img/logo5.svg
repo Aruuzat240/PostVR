@@ -1,0 +1,31 @@
+<svg width="549" height="490" viewBox="0 0 549 490" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_27_351)">
+<path d="M5.62161 100.055C72.1216 76.9184 281.122 66.4183 349.622 148.418" stroke="#F83492" stroke-opacity="0.4" stroke-width="4"/>
+</g>
+<g filter="url(#filter1_f_27_351)">
+<path d="M543.622 65.4183C300.122 -41.0817 139.104 11.2101 5.62161 99.9183" stroke="#F83492" stroke-opacity="0.4" stroke-width="4"/>
+</g>
+<path d="M5.62161 100.055C72.1216 76.9184 281.122 66.4183 349.622 148.418" stroke="white"/>
+<path d="M543.622 65.4183C300.122 -41.0817 139.104 11.2101 5.62161 99.9183" stroke="white"/>
+<g filter="url(#filter2_f_27_351)">
+<path d="M509.622 483.418C320.122 408.418 134.122 277.918 5.62161 99.9183" stroke="#F83492" stroke-opacity="0.4" stroke-width="4"/>
+</g>
+<path d="M509.622 483.418C320.122 408.418 134.122 277.918 5.62161 99.9183" stroke="white"/>
+<defs>
+<filter id="filter0_f_27_351" x="0.964417" y="77.4669" width="354.192" height="76.2336" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_27_351"/>
+</filter>
+<filter id="filter1_f_27_351" x="0.514618" y="0" width="547.908" height="105.584" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_27_351"/>
+</filter>
+<filter id="filter2_f_27_351" x="0" y="94.7477" width="514.358" height="394.53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_27_351"/>
+</filter>
+</defs>
+</svg>
