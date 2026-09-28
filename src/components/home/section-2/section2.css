@@ -1,82 +1,200 @@
-.section img{
-  width: 1250px;
-  height: 702px;
+.map-section {
+  width: 100%;
+  min-height: 760px;
+  background: #090b19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 35px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
-.nitca{
-   padding: 60px;
-   margin-top: -700px;
-   margin-left: 80px;
+
+.map-wrapper {
+  width: 100%;
+  max-width: 1450px;
+  aspect-ratio: 2 / 1;
+  position: relative;
+  margin: auto;
 }
-.nitca2{
+
+.map-image {
   position: absolute;
-  top: 1306px;
-  right: 238px;
-   padding: 250px;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  object-fit: contain;
+  z-index: 1;
+  opacity: 0.95;
 }
-.card-0{
-    width: 240px;
-height: 90px;
-/* top: 1832px;
-left: 252px; */
-border-radius: 25px;
-/* angle: 0 deg;
-opacity: 1; */
-background-color: #ffffff3d;
-position: absolute;
-top: 1500px;
-left: 150px;
-}
-.section h4{
-color: rgb(255, 255, 255);
-font-weight: 100;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 24px;
-letter-spacing: -3%;
-padding: 10px;
-}
-.card-2{
-    width: 300px;
-height: 80px;
-/* top: 1799px;
-left: 1047px; */
-border-radius: 25px;
-/* angle: 0 deg; */
-opacity: 1;
-background-color: #ffffff3d;
-padding: 7px;
-position: absolute;
-top: 1510px;
-left: 900px;
-}
-.card-1{
-    width: 325px;
-height: 89px;
-position: absolute;
-top: 1595px;
-left: 707px;
-border-radius: 25px;
-background-color: #ffffff3d;
-opacity: 1;
 
+.routes {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
 }
-.card-3{
-    width: 247px;
-height: 68px;
-padding: 7px;
 
-top: 1718px;
-left: 137px;
-border-radius: 25px;
-background-color: #ffffff3d;
-position: absolute;
-
+.map-info {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #e1e3eb;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+  background: rgba(126, 137, 157, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 23px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
 }
-.card-4{
-    width: 307px;
-height: 70px;
-top: 1996px;
-left: 813px;
-border-radius: 25px;
-background-color: #ffffff3d;
-position: absolute;
+
+.info-country {
+  width: 265px;
+  height: 110px;
+  top: 22%;
+  left: 16%;
+}
+
+.info-trading {
+  width: 260px;
+  height: 110px;
+  top: 16%;
+  right: 10%;
+}
+
+.info-individual {
+  width: 330px;
+  height: 120px;
+  top: 36%;
+  left: 49%;
+  transform: translateX(-50%);
+}
+
+.info-delivery {
+  width: 265px;
+  height: 110px;
+  top: 52%;
+  left: 24%;
+}
+
+.info-support {
+  width: 275px;
+  height: 110px;
+  bottom: 12%;
+  right: 14%;
+}
+
+@media (max-width: 1000px) {
+  .map-section {
+    min-height: 600px;
+    padding: 30px 15px;
+  }
+
+  .map-info {
+    font-size: 17px;
+    border-radius: 18px;
+  }
+
+  .info-country {
+    width: 200px;
+    height: 85px;
+  }
+
+  .info-trading {
+    width: 200px;
+    height: 85px;
+  }
+
+  .info-individual {
+    width: 260px;
+    height: 95px;
+  }
+
+  .info-delivery {
+    width: 205px;
+    height: 85px;
+  }
+
+  .info-support {
+    width: 220px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .map-section {
+    min-height: 480px;
+    padding: 20px 5px;
+  }
+
+  .map-wrapper {
+    aspect-ratio: 1 / 1;
+    min-height: 420px;
+  }
+
+  .map-image {
+    width: 135%;
+    height: 85%;
+    left: -17%;
+    top: 7%;
+  }
+
+  .routes {
+    width: 135%;
+    height: 85%;
+    left: -17%;
+    top: 7%;
+  }
+
+  .map-info {
+    font-size: 12px;
+    line-height: 1.3;
+    border-radius: 13px;
+    padding: 8px;
+  }
+
+  .info-country {
+    width: 125px;
+    height: 65px;
+    top: 15%;
+    left: 1%;
+  }
+
+  .info-trading {
+    width: 125px;
+    height: 65px;
+    top: 12%;
+    right: 1%;
+  }
+
+  .info-individual {
+    width: 185px;
+    height: 75px;
+    top: 39%;
+    left: 50%;
+  }
+
+  .info-delivery {
+    width: 140px;
+    height: 65px;
+    top: 57%;
+    left: 1%;
+  }
+
+  .info-support {
+    width: 155px;
+    height: 70px;
+    bottom: 7%;
+    right: 1%;
+  }
 }

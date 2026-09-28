@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "../components/home"
 import Hero from '../components/home/hero/hero';
 import Section from '../components/home/section/section';
-import Section2 from '../components/home/section-2/section-2';
+import Section2 from '../components/home/section-2/section2';
 import Section3 from '../components/home/section3/section3';
 import Section4 from '../components/home/section4/section4';
 import Section5 from '../components/home/section5/section5';
